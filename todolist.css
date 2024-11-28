@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.todolist {
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 1rem; 
+    font-weight: bold;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+.container {
+    width: 80%; 
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2e2e2e; 
+    border-radius: 50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.container:hover{
+    box-shadow: 0px 0px 10px white;
+
+}
+
+.add-btn {
+    background-color: #f69330;
+    margin: 12px;
+    border-radius: 50px;
+    width: 80px;
+    height: 43px;
+}
+
+.add-btn:hover {
+    background-color: #f1c36d;
+}
+
+.delete-btn {
+    background-color: #f81515; 
+}
+
+.delete-btn:hover {
+    background-color: #792525; 
+}
+
+.move-btn {
+    background-color: #73cad2; 
+}
+
+.move-btn:hover {
+    background-color: #5ab6bd; 
+}
+
+input[type="text"] {
+    font-size: 1rem;
+    padding: 10px;
+    border: 2px solid #afacac;
+    border-radius: 20px;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    width: 40%; 
+    box-sizing: border-box;
+}
+input:hover{
+    box-shadow: 0px 0px 10px white,
+    0px 0px 20px white,
+    0px 0px 40px white,
+    0px 0px 75px white;
+}
+
+ol {
+    padding: 0;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+li {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #e5e9e8; 
+    border: 1px solid #d8d8d8;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 10px white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+    flex: 1;
+    margin-right: 10px; 
+}
+
+.delete-btn, .move-btn {
+    padding: 8px 13px;
+    font-size: 1.1rem; 
+    margin-left: 10px;
+}
